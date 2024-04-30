@@ -3,795 +3,658 @@
 <html lang="en-GB">
 
 <head>
-	<!--
-	Ah, I see that you have opened my  D E V I L I S H   S O U R C E   C O D E
+  <!--  Open-source code source: https://github.com/VCE1/masuzu.moe -->
+  <!--  Fork form: https://github.com/Pizzacus/satania.moe -->
+  <meta charset="UTF-8" />
 
-	,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,*,..........*,,*****************************************************&**,****************
-	,,.,,,,,,,,,,,,,,,,,,,,,,,,,,**....***......*...******************************************************,****************
-	,,.,,,,,,,,,,,,,,,,,,,,,,,,,*..,*****.........******************************************,***********.*,/***************
-	,,......................../..*********......*****************************************,.*.,***********,.*,/*************
-	,,,,,,,,,,,,,,,,,,,,,,,,.,,***//////****..**/************************************,.***..,.,*******.*.**.,.,(*,,,,,,,,,,
-	,,,,,,,,,,,,,,,,,,,,,,,(.***///////////.*//////////****************##(************.***.....********....*....,,,,,,,,,,,
-	**********************%,***//////////////#(////////#/////*********/(%%##**********.,**......*********...,.....%,,,,,,,,
-	*************************///////////////##////////%#%/////////////(%%&&%%//***********...*...*********.........,.......
-	/////////////////////***//////////////(##(///////%&&%%#////(%%##%%&&&&&&%%//**********.*.**../*********,........,......
-	/////////////////////**//////////////(%##///////(&&&&&&&&&&&&&&%/#&&&&&&&%///*********,****,.************.*......,,,,,,
-	(((((((/////////////**//////////////#####///////%&&&&&&&&(///%//////////#%////////(*********.,**//////****.*.,.*..,....
-	((((((((////////////**/////////////#####(///////%&&////////////////////(///////((////******.////////////,**.*.*../...
-	(((((((((((((((((((*(/////////////######////////%%/////////////(//////(/////////(#(//////////*////////////////**,*..,,,
-	((((((((((//////////(////////////#######////////#/////////////(////////////////(##(//////////////////#/////////(***.,,,
-	(((((((((((####///*/(#//////////##%####(////////////////////(##/////(,/*///////###(//////////(///////(//////////(***./,
-	(((((((((((#####/(*/(((////////########////////////////////####/////**//*/////####(/////////(////////(#///////////****,
-	(((((((((((((((#((*/,     ,///###%#####//////////////////####*#//***,,////(///#####////////(#////////(#////////////****
-	(((((((//(((((###((.        *(#########//////////////(//####,*(//*/.,,(///*//(#####////////##////////(#(//////(/////**/
-	((/((((((((#%%%###(           ########(//////////////((###/.,****(* .,**//*//######///////##(////(///###//////(///(/**(
-	((///(((((%%%%%####            *######(/////(////////(##(....,,**/ * ,,//(*//#%####//////(##/////(///###//////(#////**/
-	((///(((&(%%##(%%%#.            .(####(////(#///////(###..   ,,(*/   *,**(**(######//////###////((///###//////(#/////**
-	(#*******////////(%/             .####(////##///////(##  (.  .,/*.   .,,/(,*(#(/###(////###(////*(//(####/(///(##//(/**
-	###/***///*..,/////(              #####///###///////## /%%%%%#,,/     , .#,,,(/*###(///####///(**///*(##///(//###//(/**
-	////**/////*/,.////(  ..         .#####//(###(//////#.    .#%%%%%     .  (./.(***###//####(///**///,*(##//*(//###//(/**
-	/*****///////////(/( ,,,,,,..,,,,.#####//####(//////(         ,%%%%      . ,. * */##/#####///.,*/(.,*(##//*(/(###(///**
-	///***///////(###%%# .,,,,,,,,,,*(#####/(#####///(//(            .%%%.  .   . / .,#######//../,(/ .,*###(.*//####(///**
-	///(((*//(#######%##  ,,,,,,,,,,*#############//////(.              /%%.  *   .  ,*#####/(  .,(.   ,*##(..*/(###(/(//*/
-	/#####((#(########(, .,**    ./*((############///////..(#%%%#%%%%%%##(#%%        .,((#(/. .,,. ./%%%%%# ..*#####/////*/
-	#######(((((##%#(## *             ,#(#########(///(//...........                 . (((.    (%%%%%/. *#....#####/((///*(
-	######((#####&((#(                    ((######(//////,...........                      .#%%%.       (  .*#####(/(///**(
-	##########//#((                          (#####///(,*/..........                           ,#%%%(. ....##%###(//////**(
-	#######,/(*(.                              ####////.**..........                           .....,#,...(#####(///////*/(
-	,,,,,,,,&.         .,,,,..                 .(##(//*../,........                    .      ...........,####%#///////**//
-	,,,,,,%         ,,,,,,,,,,,*,,,,,,,,****,,. ((#(//*.../.......                           .......... .######(///(///**//
-	,,,,,/       ,,,,,,,*/*.                     (((///.   *                                 ............######///((//**///
-	,,,,,*      ,**.                             .(((//                                       ..........#######//(#(//**///
-	,,,,,*                                        (((//               ,                        .........######///##(//*////
-	******                                        ,((/*.              ,, ,*/**,,.                  ....(######/(###//*/////
-	******                                        ,(((/*,            ,..,.,.,,*///#(.                .*######/(###(//*(((((
-	(((((                             ..,*,,..  .*((((//,,           ,...,,,,,,,,//*                .*#######(####(/*((((((
-	*****               ,,,,,**.                   #(##(/,,,           ..........*                 .(##########%#(/*///////
-	/////*           .,*,                          .(##/*,**,,                                   .,#############((**(((((((
-	/////(                                          ####(**,,/,,.                              .##############%%(**////////
-	******                                          ####(%#***,,*,,                        /#(##############(#((/*/((((((((
-	******/                                       .#%####%%%%****,,**.               *(&((######(##########(#(#/*//////////
-	******(/                                  .* #%%#%###(%%%%%(*****(#(..... ,#(/,,.#&(#######/##########(##//**//////////
-	////////(                           .*.      .%%%%%%##%%%%%%%%**%%%%%%%%%%%#%@%#########%#///#######((#%/(*////////////
-	/////((((.              .,,,,*/*,           . (%%%%%%#(%%%%%%%%(%%%%%%%%%%%%%%%%%%###%##%#///######((,,(#*/////////////
-	((((#(((((                ...                .((#%%%%%%#%%%%%%%(%%%%%%%%%%%%%%%%%####%####//######(###/#///////////////
+  <meta name="keywords"
+    content="Masuzu Natsukawa, Masuzu, Ore no Kanojo to Osananajimi ga Shuraba Sugiru, Oreshura, anime, light novel, romance, comedy, high school, harem, love triangle, fake girlfriend, relationships, youth, tsundere, beautiful, school life, chuunibyou, girlfriend, Japanese culture" />
+  <meta name="description"
+    content="Here is an introduction to the world's best waifu, Masuzu Natsukawa, a perfect waifu with white long hair, black thigh-high socks, beautiful appearance, and charming loveliness!" />
+  <meta name="author" content="vce1" />
+  <meta name="theme-color" content="#EE6666" />
+
+  <link rel="icon" sizes="192x192" href="icon/android-chrome-192x192.png" />
+  <link rel="apple-touch-icon" href="icon/apple-touch-icon.png" />
+  <meta name="msapplication-square310x310logo" content="favicon_big.jpg" />
+
+  <meta property="og:title" content="Masuzu: The best waifu. Ever." />
+  <meta property="og:url" content="https://masuzu.moe/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description"
+    content="Masuzu IS the BEST waifu, no really, she is, if you don't believe me, this website will convince you." />
+
+  <meta property="og:image" content="favicon_big.jpg" />
+  <meta property="og:image:width" content="425" />
+  <meta property="og:image:height" content="425" />
 
 
-	-->
+  <title>Masuzu: The best Waifu. Ever.</title>
 
-	<meta charset="UTF-8" />
+  <link href="https://use.typekit.net/tro1mso.css" rel="stylesheet" crossorigin="anonymous" />
+  <link href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" rel="stylesheet"
+    integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous" />
 
-	<meta name="keywords" content="Gabriel Dropout, Satania, Satanichia, Kurumizawa, McDowell, demon, angel, moe, waifu, gabriel, raphiel, vignette, cute, anime, manga, daiakuma" />
-	<meta name="description" content="Discover why Satania is the best character and waifu from Gabriel Dropout, and, maybe, from every anime and manga out there!" />
-	<meta name="author" content="Pizzacus" />
-	<meta name="theme-color" content="#EE6666" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet"
+    crossorigin="anonymous" />
 
-	<link rel="icon" sizes="192x192" href="https://satania.moe/img/favicon_big.jpg" />
-	<link rel="apple-touch-icon" href="https://satania.moe/img/favicon_big.jpg" />
-	<meta name="msapplication-square310x310logo" content="https://satania.moe/img/favicon_big.jpg" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.8/plyr.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.8/plyr.css">
 
-	<meta property="og:title" content="Satania: The best Waifu. Ever." />
-	<meta property="og:url" content="https://satania.moe" />
-	<meta property="og:type" content="website" />
-	<meta property="og:description" content="Satania IS the BEST waifu, no really, she is, if you don't believe me, this website will convince you." />
 
-	<meta property="og:image" content="https://satania.moe/img/favicon_big.jpg" />
-	<meta property="og:image:width" content="425" />
-	<meta property="og:image:height" content="425" />
+  <link href="/css/style.css" rel="stylesheet" />
 
-	<link rel="alternate" href="https://satania.moe/#de" hreflang="de" />
-	<link rel="alternate" href="https://satania.moe/" hreflang="en" />
-	<link rel="alternate" href="https://satania.moe/#es" hreflang="es" />
-	<link rel="alternate" href="https://satania.moe/#et" hreflang="et" />
-	<link rel="alternate" href="https://satania.moe/#fr" hreflang="fr" />
-	<link rel="alternate" href="https://satania.moe/#it" hreflang="it" />
-	<link rel="alternate" href="https://satania.moe/#lv" hreflang="lv" />
-	<link rel="alternate" href="https://satania.moe/#hu" hreflang="hu" />
-	<link rel="alternate" href="https://satania.moe/#id" hreflang="id" />
-	<link rel="alternate" href="https://satania.moe/#nl" hreflang="nl" />
-	<link rel="alternate" href="https://satania.moe/#nb" hreflang="nb" />
-	<link rel="alternate" href="https://satania.moe/#pt-BR" hreflang="pt-BR" />
-	<link rel="alternate" href="https://satania.moe/#pl" hreflang="pl" />
-	<link rel="alternate" href="https://satania.moe/#fi" hreflang="fi" />
-	<link rel="alternate" href="https://satania.moe/#sv" hreflang="sv" />
-	<link rel="alternate" href="https://satania.moe/#tr" hreflang="tr" />
-	<link rel="alternate" href="https://satania.moe/#ru" hreflang="ru" />
-	<link rel="alternate" href="https://satania.moe/#el" hreflang="el" />
-	<link rel="alternate" href="https://satania.moe/#ja" hreflang="ja" />
-	<link rel="alternate" href="https://satania.moe/#ko" hreflang="ko" />
-	<link rel="alternate" href="https://satania.moe/#zh-Hans" hreflang="zh-Hans" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-	<title>Satania: The best Waifu. Ever.</title>
 
-	<link href="https://use.typekit.net/tro1mso.css" rel="stylesheet" crossorigin="anonymous" />
-	<link href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" rel="stylesheet" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous" />
-
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" crossorigin="anonymous" />
-	<link href="style.css" rel="stylesheet" />
-
-	<link rel="preload" href="img/back.jpg" as="image" />
 </head>
 
 <body>
-	<!-- Webp support detection for CSS -->
-	<img
-		style="position: absolute;top: -1000px;"
-		src="data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA"
-		onload="document.body.classList.add('has-webp')" />
-	<div i18n-group="main-intro" class="intro">
-		<div class="main">
-			<div class="back-overlay"></div>
-
-			<div class="title">
-				<h1 i18n="name" id="logo">Satania</h1>
-				<p lang="ja">胡桃沢=サタニキア=マクドウェル</p>
-				<h2 i18n="best-waifu-ever">The best Waifu. <b>Ever.</b></h2>
-	
-				<div class="button-container">
-					<span>
-						<a i18n="join-discord" class="button discord" href="https://discord.gg/rC9ebp7"><i class="fab fa-discord"></i>Join the Discord</a><br />
-						<span id="discord-count" i18n="discord-count">
-							<span id="discord-number"></span> members
-						</span>
-					</span>
-					
-					<span>
-						<a i18n="join-reddit" class="button reddit" href="https://reddit.com/r/satania"><i class="fab fa-reddit-alien"></i>Join the Subreddit</a><br />
-						<span id="reddit-count" i18n="reddit-count">
-							<span id="reddit-number"></span> subscribers
-						</span>
-					</span>
-	
-					<br />
-					
-					<span i18n="language-warning" class="small translate-only">(These communities use English as their primary language)</span>
-				</div>
-	
-				<span i18n="scroll-notice" class="scroll-notice"><i class="fas fa-arrow-down"></i>Scroll to learn more!</span>
-	
-				<p style="display: none; /* Now the mobile version is good enough */" i18n="mobile-disclaimer" class="mobile disclaimer">
-					I am really sorry, but the mobile version of this website was kinda rushed and <b>it's really shit</b>, I didn't think anyone would visit it on a phone tbh.
-				</p>
-			</div>
-	
-			<div id="translator-mode">
-				<button id="download">Download</button>
-				<button id="upload">Browse…</button>
-				<select id="format">
-					<option id="yaml" value="yaml">YAML</option>
-					<option value="json">JSON</option>
-				</select>
-			</div>
-	
-			<div class="footer">
-				<div class="language-select">
-					<div id="language-protip" i18n-skip>
-						<span id="language-protip-text" i18n="language-protip">
-							<!-- Note for translators, change "English" to the name of your language of course -->
-							Would you like to view this website in <b>English</b>?<br />
-							Use this drop-down to select a language!
-						</span>
-						
-						<i id="close-language-protip" class="fas fa-times"></i>
-					</div>
-					<div class="select-wrapper">
-						<div i18n="language-select" class="select-button">
-							Language
-							<i class="fas fa-angle-down"></i>
-						</div>
-						<select id="locale-select" lang="mul">
-							<option disabled title="Indonesian" value="id" lang="id">Bahasa</option>
-							<option disabled title="German" value="de" lang="de">Deutsch</option>
-							<option title="English" value="en-GB" lang="en-GB">English</option>
-							<option disabled title="Spanish" value="es" lang="es">Español</option>
-							<option disabled title="Estonian" value="et" lang="et">eesti</option>
-							<option disabled title="French" value="fr" lang="fr">Français</option>
-							<option disabled title="Italian" value="it" lang="it">Italiano</option>
-							<option disabled title="Latvian" value="lv" lang="lv">latviešu</option>
-							<option disabled title="Hungarian" value="hu" lang="hu">magyar</option>
-							<option disabled title="Dutch" value="nl" lang="nl">Nederlands</option>
-							<option disabled title="Norwegian" value="nb" lang="nb">Norsk</option>
-							<option disabled title="Portuguese" value="pt-BR" lang="pt-BR">Português</option>
-							<option disabled title="Polish" value="pl" lang="pl">Polski</option>
-							<option disabled title="Finnish" value="fi" lang="fi">suomi</option>
-							<option disabled title="Swedish" value="sv" lang="sv">svenska</option>
-							<option disabled title="Turkish" value="tr" lang="tr">Türkçe</option>
-							<option disabled title="Russian" value="ru" lang="ru">Русский</option>
-							<option disabled title="Greek" value="el" lang="el">Ελληνικά</option>
-							<option disabled title="Japanese" value="ja" lang="ja">日本語</option>
-							<option disabled title="Korean" value="ko" lang="ko">한국어</option>
-							<option disabled title="Chinese (Simplified)" value="zh-Hans" lang="zh-Hans">简体中文</option>
-						</select>
-					</div>
-				</div>
-				
-				<div class="credits" i18n="credits">
-					A glorious shitpost by some pizza named <b title="Kenyérlángos">Pizzacus&trade;</b>
-				</div>
-			</div>
-	
-			<canvas class="snow full canvas-background"></canvas>
-		</div>
-		
-		<div class="music-player-container" id="music-player-container" i18n-group="music-player">
-			<div class="music-player display-intro" id="music-player">
-				<div class="play-controller">
-					<i class="fas fa-play"></i>
-				</div>
-				<div class="intro-text" i18n-group="intro">
-					<b i18n="bold-text">Wanna listen to a devilish song while browsing this page?</b>
-					<span class="small" i18n="small-text">Press the play button on the left!</span>
-				</div>
-
-				<div class="loading">
-					<i class="fas fa-spinner fa-pulse"></i>
-				</div>
-
-				<div class="music-details">
-					<div class="name" i18n-group="metadata">
-						<span class="title" i18n="title">Satania Drop</span>
-						<span class="author" i18n="author">[LIMITED DAYS]</span>
-					</div>
-
-					<div class="countdown small hidden" i18n="countdown">Satania sings in <span id="time-until-satania"></span> seconds.</div>
-					
-					<div class="time-controller">
-						<div class="time-bar">
-							<div class="elapsed">
-								<div class="slider-tip"></div>
-							</div>
-						</div>
-
-						<div class="volume">
-							<i class="fas fa-volume-down"></i>
-
-							<div class="volume-box">
-								<div class="volume-bar">
-									<div class="volume-fill">
-										<div class="volume-tip"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-	
-						<div class="time-progression"></div>
-					</div>
-
-				</div>
-
-			</div>
-	
-			<p i18n="footer">
-				You can also listen on <a href="https://www.youtube.com/watch?v=4NDCOxnHb8o">YouTube</a> and <a href="https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube">SoundCloud</a>.
-			</p>
-
-			<div id="satania-dance"></div>
-
-			<canvas id="sound-visualizer"></canvas>
-		</div>
-	</div>
-	
-	<div class="scroll">
-		<div i18n-group="become-a-satania-follower" class="section">
-			<div class="left image">
-				<picture>
-					<source srcset="img/webp/satania_thumbsup.webp" type="image/webp">
-					<img src="img/satania_thumbsup.png" alt="" />
-				</picture>
-			</div>
-
-			<div class="right">
-				<h2 i18n="large-text">Become a Satania follower today!</h2>
-				<p i18n="sub-text"><b>There are no steps to becoming a Satania follower</b>, all&nbsp;you have to do is to accept that Satania is the&nbsp;best&nbsp;character</p>
-				<span i18n="small-text" class="small">Well, If you could make Satania memes and shitposts, that would help us a lot…</span>
-			</div>
-		</div>
-
-		<div i18n-group="she-is-beautiful" class="section">
-			<div class="left">
-				<h2 i18n="large-text">A lovely smile.<br /> Two magnificent eyes.<br /> A stunning appearance.</h2>
-				<p i18n="sub-text">She's a really <b>pulchritudinous</b> person</p>
-				<span i18n="small-text" class="small">We Satania followers are very cultured people, so we only use a very cultured language</span>
-			</div>
-
-			<div class="right image">
-				<picture>
-					<source srcset="img/webp/satania_cute.webp" type="image/webp">
-					<img src="img/satania_cute.png" alt="" />
-				</picture>
-			</div>
-		</div>
-
-		<div i18n-group="end-the-waifu-war" class="section">
-			<div class="left image">
-				<picture>
-					<source srcset="img/webp/satania_happy.webp" type="image/webp">
-					<img src="img/satania_happy.png" alt="" />
-				</picture>
-			</div>
-
-			<div class="right">
-				<h2 i18n="large-text">The best demon Waifu just&nbsp;for&nbsp;you.</h2>
-				<p i18n="sub-text">Let's end the waifu war with the <b>most kawaii demon in the world</b>!</p>
-			</div>
-		</div>
-
-		<div class="section">
-			<div i18n-group="she-is-perfect" class="center">
-				<h2 i18n="large-text">In short, she's just perfect.</h2>
-				<p i18n="sub-text">Even Google knows.</p>
-
-				<div id="searchbar" class="google-searchbar">
-					<span id="searchbar-text" i18n="searchbar-name">satania</span>
-
-					<div class="buttons">
-						<picture>
-							<source srcset="img/webp/google_mic.webp" type="image/webp">
-							<img id="search-by-voice" src="img/google_mic.png" height="24px" />
-						</picture>
-						<img id="search-button" src="img/google_search.svg" height="24px" />
-					</div>
-				</div><br />
-
-				<div i18n-group="google-definition" class="google-definition">
-					<h1 i18n="name" id="definition-name">perfection</h1>
-					<h3><span i18n="prononciation">/pəˈfɛkʃ(ə)n/</span> <i id="listen" class="fas fa-volume-up"></i></h3>
-
-					<div i18n="noun" class="noun">
-						noun
-					</div>
-
-					<div i18n-group="definition-1" class="definition no-bullet">
-						<span i18n="definition">the state or quality of being perfect.</span>
-						<div class="example">
-							<span i18n="example">"the satiny perfection of <b>Satania</b>'s skin"</span>
-							<div class="synonyms">
-								<span><i i18n="synonyms">synonyms:</i></span>
-								<span i18n="synonyms-list">Satania, flawlessness, excellence, superbness, sublimity, exquisiteness, magnificence, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br />
-								"the satiny perfection of her skin"</span>
-							</div>
-						</div>
-					</div>
-
-					<div i18n-group="definition-2" class="definition">
-						<span i18n="definition">a person or thing considered to be perfect.</span>
-						<div class="example">
-							<span i18n="example">"I am told that <b>Satania</b> is perfection itself"</span>
-							<div class="synonyms">
-								<span><i i18n="synonyms">synonyms:</i></span>
-								<span i18n="synonyms-list">Satania, the ideal, a paragon, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, the last word, the ultimate, a dream; <i>informal</i> one in a million, the tops, the best/greatest thing since sliced melon bread, the bee's knees; <i>archaic</i> a nonesuch<br />
-								"for her, he was still perfection"</span>
-							</div>
-						</div>
-					</div>
-
-					<div i18n-group="definition-3" class="definition">
-						<span i18n="definition">the action or process of improving something until it is faultless.</span>
-						<div class="example">
-							<span i18n="example">"I worked all day on the perfection of my <b>Satania</b> drawing"</span>
-							<div class="synonyms">
-								<span><i i18n="synonyms">synonyms:</i></span>
-								<span i18n="synonyms-list">Satania, improvement, betterment, refinement, refining, perfecting, polishing, amelioration; <i>rare</i> melioration<br />
-								"the perfection of new mechanisms of economic management"</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div i18n-group="no-one-can-compete" class="section">
-			<div class="center">
-				<h2 i18n="large-text">No one can compete.</h2>
-				<p i18n="sub-text">Just think about it, why would Gabriel, Raphi or Vignette be the best?</p>
-
-				<table i18n-group="table">
-					<thead>
-						<tr i18n-group="names">
-							<th class="category"></th>
-							<th i18n="satania" class="highlight">Satania</th>
-							<th i18n="gabriel">Gabriel</th>
-							<th i18n="vignette">Vignette</th>
-							<th i18n="raphiel">Raphiel</th>
-						</tr>
-					</thead>
-
-					<tbody>
-						<tr i18n-group="goals-in-life">
-							<td i18n="category" class="category">Has goals in life</td>
-							<td class="highlight">
-								<i class="fas fa-check"></i>
-								<span i18n="satania" class="small">(Becoming the queen of hell)</span>
-							</td>
-							<td>
-								<i class="fas fa-check"></i>
-								<span i18n="gabriel" class="small">(Bringing armageddon)</span>
-							</td>
-							<td></td>
-							<td></td>
-						</tr>
-
-						<tr i18n-group="hard-challenges">
-							<td i18n="category" class="category">Has surmounted hard challenges</td>
-							<td class="highlight">
-								<i class="fas fa-check"></i>
-								<span i18n="satania" class="small">(Taming the dog)</span>
-							</td>
-							<td></td>
-							<td></td>
-							<td></td>
-						</tr>
-
-						<tr i18n-group="tries-her-best">
-							<td i18n="category" class="category">Tries her best not to fail heaven/hell school</td>
-							<td class="highlight">
-								<i class="fas fa-check"></i>
-							</td>
-							<td></td>
-							<td><span i18n="vignette" class="small">Kinda?</span></td>
-							<td></td>
-						</tr>
-
-						<tr i18n-group="powerfull-allies">
-							<td i18n="category" class="category">Has powerful allies</td>
-							<td class="highlight">
-								<i class="fas fa-check"></i>
-								<span i18n="satania" class="small">(The dog & her familiar)</span>
-							</td>
-							<td></td>
-							<td>
-								<i class="fas fa-check"></i>
-								<span i18n="vignette" class="small">(Her familiar)</span>
-							</td>
-							<td></td>
-						</tr>
-
-						<tr i18n-group="tragic-backstory">
-							<td i18n="category" class="category">Has a deep, tragic backstory</td>
-							<td class="highlight">
-								<i class="fas fa-check"></i>
-								<span i18n="satania" class="small">(Bullied at school)</span>
-							</td>
-							<td></td>
-							<td></td>
-							<td></td>
-						</tr>
-
-						<tr>
-							<td i18n="member-favorites" class="category">Number of member favourites on MAL*</td>
-							<td class="highlight" i18n-reformat="2996">2,996</td>
-							<td i18n-reformat="1211">1,211</td>
-							<td i18n-reformat="842">842</td>
-							<td i18n-reformat="786">786</td>
-						</tr>
-
-						<tr>
-							<td i18n="subreddit-subs" class="category">Number of subs on their subreddit*</td>
-							<td class="highlight">
-								<span i18n-reformat="7812">7,812</span>
-								<a href="https://www.reddit.com/r/Satania/" class="small">/r/satania</a>
-							</td>
-							<td>
-								<span i18n-reformat="1289">1,289</span>
-								<a href="https://www.reddit.com/r/Tenma/" class="small">/r/tenma</a>
-							</td>
-							<td>
-								<span i18n-reformat="1404">1,404</span>
-								<a href="https://www.reddit.com/r/Vigne/" class="small">/r/vigne</a>
-							</td>
-							<td>
-								<span i18n-reformat="735">735</span>
-								<a href="https://www.reddit.com/r/Raphiel/" class="small">/r/watchpeopledie</a></td>
-						</tr>
-
-						<tr i18n-group="e-hentai">
-							<td i18n="category" class="category">Number of Doujinshi on e-hentai*</td>
-							<td class="highlight">
-								<span i18n-reformat="10">10</span>
-								<span i18n="satania" title="Bakakuma Satania’s Human Domination Plan" class="small">(One of which is hilarious)</span>
-							</td>
-							<td i18n-reformat="3">3</td>
-							<td i18n-reformat="2">2</td>
-							<td i18n-reformat="2">2</td>
-						</tr>
-
-						<tr>
-							<td i18n="rule34" class="category">Number of pics on rule34.xxx*</td>
-							<td class="highlight" i18n-reformat="150">150</td>
-							<td i18n-reformat="67">67</td>
-							<td i18n-reformat="60">60</td>
-							<td i18n-reformat="45">45</td>
-						</tr>
-
-						<tr>
-							<td i18n="gelbooru" class="category">Number of pics on gelbooru*</td>
-							<td class="highlight" i18n-reformat="673">673</td>
-							<td i18n-reformat="490">490</td>
-							<td i18n-reformat="385">385</td>
-							<td i18n-reformat="234">234</td>
-						</tr>
-					</tbody>
-				</table>
-
-				<span i18n="as-of">*As of <span id="last-updated"></span></span>
-			</div>
-		</div>
-
-		<div class="section">
-			<div class="center" i18n-group="the-others-are-trash">
-				<h2 i18n="large-text">The other characters are trash, no exception.</h2>
-				<p i18n="sub-text">They may be cute, but when you know the facts, they really aren't.</p>
-
-				<div i18n-group="the-others-are-trash" class="compare">
-					<div i18n-group="gabriel" class="character gabriel">
-						<picture>
-							<source srcset="img/webp/portraits/gabriel.webp" type="image/webp">
-							<img src="img/portraits/gabriel.jpg" />
-						</picture>
-						<div class="name">
-							<span i18n="name">Gabriel</span>
-							<div i18n="name-detail" class="small">
-								Tenma White<br /> <span lang="ja">天真=ガヴリール=ホワイト</span>
-							</div>
-						</div>
-						<ul i18n-group="description">
-							<li i18n="argument-1"><b>Lazy NEET who is 100% unlikeable</b></li>
-							<li i18n="argument-2">No seriously, she has no redeeming qualities</li>
-							<li i18n="argument-3">People only like her because she may be relatable for them</li>
-							<li i18n="argument-4"><b>And being able to relate to Gab is a horrible thing</b></li>
-							<li i18n="argument-5"><b>She's used for a ton of shitty fanservice</b>, like panty-shots and other questionable camera angles</li>
-							<li i18n="argument-6"><b>She's basically Umaru</b></li>
-						</ul>
-					</div>
-
-					<div i18n-group="raphiel" class="character raphiel">
-						<picture>
-							<source srcset="img/webp/portraits/sadist.webp" type="image/webp">
-							<img src="img/portraits/sadist.jpg" />
-						</picture>
-						<div class="name">
-							<span i18n="name">Raphiel</span>
-							<div i18n="name-detail" class="small">
-								Shiraha Ainsworth<br /> <span lang="ja">白羽=ラフィエル=エインズワース</span>
-							</div>
-						</div>
-						<ul i18n-group="description">
-							<li i18n="argument-1"><b>Is a sadist that only wants others to suffer</b></li>
-							<li i18n="argument-2">Isn't likeable in any way either</li>
-							<li i18n="argument-3">Unless you're also a sadist, but then you're a bad person</li>
-							<li i18n="argument-4"><b>Probably has a foot-fetishism</b> (she asked Satania to lick her feet for some melon bread)</li>
-							<li i18n="argument-5">Her fans are perverts AND horrible people</li>
-							<li i18n="argument-6">She's afraid of frogs lmao</li>
-						</ul>
-					</div>
-
-					<div i18n-group="vignette" class="character vignette">
-						<picture>
-							<source srcset="img/webp/portraits/vignette.webp" type="image/webp">
-							<img src="img/portraits/vignette.jpg" />
-						</picture>
-						<div class="name">
-							<span i18n="name">Vignette</span>
-							<div i18n="name-detail" class="small">
-								Tsukinose April<br /> <span lang="ja">月乃瀬=ヴィネット=エイプリル</span>
-							</div>
-						</div>
-						<ul i18n-group="description">
-							<li i18n="argument-1"><b>BOOOOOOORING</b></li>
-							<li i18n="argument-2">No really, she never does anything interesting</li>
-							<li i18n="argument-3">Like, she's all normal and stuff</li>
-							<li i18n="argument-4"><b>People only like her because she's cute</b></li>
-							<li i18n="argument-5"><b>She probably was just made to add more moe material</b></li>
-							<li i18n="argument-6">Doesn't even TRY to be evil, even tho she's a DEMON</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div i18n-group="fanarts" class="section">
-			<div class="left image slideshow">
-				<picture data-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62549900" class="shown">
-					<source srcset="img/webp/fanarts/fanart1.webp" type="image/webp">
-					<img height="500px" src="img/fanarts/fanart1.jpg" alt="" />
-				</picture>
-				<picture data-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62828639">
-					<source srcset="img/webp/fanarts/fanart2.webp" type="image/webp">
-					<img height="500px" src="img/fanarts/fanart2.jpg" alt="" />
-				</picture>
-				<picture data-source="https://eriyy.deviantart.com/art/Satania-Sama-660744221">
-					<source srcset="img/webp/fanarts/fanart3.webp" type="image/webp">
-					<img height="500px" src="img/fanarts/fanart3.png" alt="" />
-				</picture>
-				<picture data-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61218653">
-					<source srcset="img/webp/fanarts/fanart4.webp" type="image/webp">
-					<img height="500px" src="img/fanarts/fanart4.png" alt="" />
-				</picture>
-				<picture data-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61476097">
-					<source srcset="img/webp/fanarts/fanart5.webp" type="image/webp">
-					<img height="500px" src="img/fanarts/fanart5.jpg" alt="" />
-				</picture>
-				<picture data-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61519696">
-					<source srcset="img/webp/fanarts/fanart6.webp" type="image/webp">
-					<img height="500px" src="img/fanarts/fanart6.jpg" alt="" />
-				</picture>
-				<picture data-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62059829">
-					<source srcset="img/webp/fanarts/fanart7.webp" type="image/webp">
-					<img height="500px" src="img/fanarts/fanart7.jpg" alt="" />
-				</picture>
-				<picture data-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61362109">
-					<source srcset="img/webp/fanarts/fanart8.webp" type="image/webp">
-					<img height="500px" src="img/fanarts/fanart8.png" alt="" />
-				</picture>
-				<picture data-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62195163">
-					<source srcset="img/webp/fanarts/fanart9.webp" type="image/webp">
-					<img height="500px" src="img/fanarts/fanart9.jpg" alt="" />
-				</picture>
-				<a i18n="source" class="source">Source</a>
-			</div>
-
-			<div class="right">
-				<h2 i18n="large-text">Fanarts that are impossibly&nbsp;kawaii!</h2>
-				<p i18n="sub-text">Just look at this, this is adorable. <noscript>Slideshow requires JavaScript.</noscript></p>
-			</div>
-		</div>
-
-		<div i18n-group="autism" class="section">
-			<canvas class="snow full canvas-background"></canvas>
-
-			<div class="left">
-				<h2 i18n="large-text">Also, she's not an autist, stop&nbsp;saying&nbsp;that</h2>
-				<p i18n="sub-text">Autistic people often have trouble communicating, staying quiet in their own corner all the time, Satania&nbsp;isn't like that at all.<br /><b>She's probably less autistic than you are!</b></p>
-				<span i18n="small-text" class="small">And while she does say "I'm thwee" in that episode,<br /> it's because Raphiel made her say it!</span>
-			</div>
-
-			<div class="right image">
-				<picture>
-					<source srcset="img/webp/satania_reindeer.webp" type="image/webp">
-					<img src="img/satania_reindeer.png" alt="" />
-				</picture>
-				<div class="nose-button" onclick="startSnow()"></div>
-			</div>
-		</div>
-
-		<div i18n-group="pope-francis" class="section background pope-francis">
-			<div class="back-overlay"></div>
-			<div class="center">
-				<h2 i18n="large-text">Even Pope Francis loves Satania.</h2>
-				<p i18n="sub-text">"Satania is my number two waifu, the number one being Jesus of&nbsp;course!<br /> I bless her and all her followers!"</p>
-			</div>
-		</div>
-
-		<div i18n-group="flipping-cards" class="section">
-			<div class="center">
-				<h2 i18n="large-text">She replaces all the other waifus in the show</h2>
-				<p i18n="sub-text">When you think about it, Satania is a perfect alternative to every character in Gabriel Dropout…
-					<span class="small">Click on any of these cards to see the answers</span>
-				</p>
-
-				<div i18n-group="cards" id="card-container">
-					<span>
-						<input type="checkbox" id="gabriel-toogle" class="card-toogle" />
-						<label for="gabriel-toogle" i18n-group="gabriel" class="card gabriel">
-							<div i18n="question" class="question">
-								Do you need a girl who <b>isn't very nice, doesn't care about anyone</b> and thinks her hobbies are more important than anything?
-							</div>
-							<div i18n="answer" class="answer">
-								Then you need the demon who <b>doesn't care about humans and angels and is always trying to be evil</b>, rather than studying or something…<br /> Also, <b>she doesn't do her homework ON PURPOSE!!</b>
-							</div>
-						</label>
-					</span>
-					
-					<span>
-						<input type="checkbox" id="vigne-toogle" class="card-toogle" />
-						<label for="vigne-toogle" i18n-group="vigne" class="card vigne">
-							<div i18n="question" class="question">
-								Would you like a <b>cute moe demon</b> that <b>wanna be evil, but is very bad at it</b>, ending up doing nice things like teaching stuff to Gabriel?
-							</div>
-							<div i18n="answer" class="answer">
-								Then you'll probably like the <b>demon who is trying her best to become the greatest one</b>, but is frequently manipulated into <b>doing nice things</b>, even tho she is trying her best to teach Gabriel a good lesson…
-							</div>
-						</label>
-					</span>
-					
-					<span>
-						<input type="checkbox" id="raphiel-toogle" class="card-toogle" />
-						<label for="raphiel-toogle" i18n-group="raphiel" class="card raphiel">
-							<div i18n="question" class="question">
-								Do you want a girl that <b>looks cute</b>, but is actually <b>really mean</b> and only wants to see everyone suffer?
-							</div>
-							<div i18n="answer" class="answer">
-								That sounds exactly like Satania! Because becoming the greatest Arch Demon the world has ever known, <b>probably implies hurting or killing a lot of people</b>…
-							</div>
-						</label>
-					</span>
-					
-					<span>
-						<input type="checkbox" id="satania-toogle" class="card-toogle" />
-						<label for="satania-toogle" i18n-group="satania" class="card satania">
-							<div i18n="question" class="question">
-								How about the <b>greatest demon in the entire universe?</b>
-							</div>
-							<div class="answer">
-								<picture>
-									<source srcset="img/webp/debiru.webp" type="image/webp">
-									<img width="100%" src="img/debiru.png" alt="" />
-								</picture>
-							</div>
-						</label>
-					</span>
-				</div>
-			</div>
-		</div>
-
-		<div i18n-group="raviolli-raviolli" class="section">
-			<div class="left">
-				<h2 i18n="large-text">Ravioli, ravioli,<br />pls, no more bulli</h2>
-				<p i18n="sub-text">Why would you do that??? How much of a sadist do you have to be to want to bulli her???</p>
-			</div>
-
-			<div class="right image">
-				<picture>
-					<source srcset="img/webp/satania_sad.webp" type="image/webp">
-					<img src="img/satania_sad.png" alt="" />
-				</picture>
-			</div>
-		</div>
-
-
-		<div i18n-group="large-text" class="section">
-			<div class="left image">
-				<picture>
-					<source srcset="img/webp/satania_evil.webp" type="image/webp">
-					<img src="img/satania_evil.png" alt="" />
-				</picture>
-			</div>
-
-			<div class="right">
-				<h2 i18n="large-text">She's gonna rule over humanity anyway…</h2>
-				<p i18n="sub-text">So, may you like her or not,<br /> you'll have to praise her eventually…</p>
-			</div>
-		</div>
-
-		<div i18n-group="end" class="main end">
-			<div class="back-overlay"></div>
-
-			<div class="title">
-				<h1 i18n="large-text">She's the Best.</h1>
-				<h2 i18n="sub-text">Period. The end.</h2>
-			</div>
-
-			<div class="footer">
-				<a href="https://github.com/Pizzacus/satania.moe">
-					<picture>
-						<source srcset="img/webp/github_link.webp" type="image/webp">
-						<img src="img/github_link.png" alt="" />
-					</picture>
-				</a>
-			</div>
-
-			<canvas class="snow full canvas-background"></canvas>
-		</div>
-	</div>
-
-	<script src="script.js"></script>
-
-	<script>
-		(function(i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r;
-			i[r] = i[r] || function() {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date();
-			a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0];
-			a.async = 1;
-			a.src = g;
-			m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-		ga('create', 'UA-101177248-1', 'auto');
-		ga('send', 'pageview');
-	</script>
-</body>
 
 </html>
+<img style="position: absolute; top: -1000px"
+  src="data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA"
+  onload="document.body.classList.add('has-webp')" />
+
+<div i18n-group="main-intro" class="intro">
+  <div class="main">
+    <div class="back-overlay"></div>
+    <div class="title">
+      <h1 i18n="name" id="logo">Masuzu</h1>
+      <p lang="ja"><b>夏川真涼=ナツカワ=マスズ</b></p>
+      <h2 i18n="best-waifu-ever">The best waifu. <b>Ever.</b></h2>
+
+      <p style="display: none; /* Now the mobile version is good enough */" i18n="mobile-disclaimer"
+        class="mobile disclaimer">
+        I am really sorry, but the mobile version of this website was kinda
+        rushed and <b>it's really shit</b>, I didn't think anyone would
+        visit it on a phone tbh.
+      </p>
+
+    </div>
+  </div>
+
+  <canvas class="snow full canvas-background"></canvas>
+</div>
+
+
+
+<div class="scroll">
+  <div i18n-group="become-a-masuzu-follower" class="section">
+    <div class="left image">
+      <picture>
+        <source srcset="assets/webp/p1.webp" type="image/webp" />
+        <img src="assets/img/p1.png" alt="" />
+      </picture>
+    </div>
+
+    <div class="right">
+      <h2 i18n="large-text">Become a Masuzu follower today!</h2>
+      <p i18n="sub-text">
+        <b>There are no steps to becoming a Masuzu follower</b>,
+        all&nbsp;you have to do is to accept that Masuzu is
+        the&nbsp;best&nbsp;character
+      </p>
+      <span i18n="small-text" class="small">If you haven't watched this anime, please do so for her sake!</span>
+    </div>
+  </div>
+
+  <div i18n-group="she-is-beautiful" class="section">
+    <div class="left">
+      <h2 i18n="large-text">
+        A lovely smile.<br />
+        Two magnificent eyes.<br />
+        A stunning appearance.
+      </h2>
+      <p i18n="sub-text">She's a really <b>pulchritudinous</b> person</p>
+      <span i18n="small-text" class="small">No one can resist the beauty of a girl with long white hair!</span>
+    </div>
+
+    <div class="right image">
+      <picture>
+        <source srcset="assets/webp/p2.webp" type="image/webp" />
+        <img src="assets/img/p2.png" alt="" />
+      </picture>
+    </div>
+  </div>
+
+  <div i18n-group="end-the-waifu-war" class="section">
+    <div class="left image">
+      <picture>
+        <source srcset="assets/webp/p3.webp" type="image/webp" />
+        <img src="assets/img/p3.png" alt="" />
+      </picture>
+    </div>
+
+    <div class="right">
+      <h2 i18n="large-text">
+        The best Waifu just&nbsp;for&nbsp;you.
+      </h2>
+      <p i18n="sub-text">
+        Let's end the waifu war with the
+        <b>most kawaii girl in the world</b>!
+      </p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div i18n-group="she-is-perfect" class="center">
+      <h2 i18n="large-text">In short, she's just perfect.</h2>
+      <p i18n="sub-text">Even Google knows.</p>
+
+      <div id="searchbar" class="google-searchbar">
+        <span id="searchbar-text" i18n="searchbar-name">masuzu</span>
+
+        <div class="buttons">
+          <picture>
+            <source srcset="/assets/webp/google_mic.webp" type="image/webp" />
+            <img id="search-by-voice" src="/assets/img/google_mic.png" height="24px" />
+          </picture>
+          <img id="search-button" src="/assets/img/google_search.png" height="24px" />
+        </div>
+      </div>
+      <br />
+
+      <div i18n-group="google-definition" class="google-definition">
+        <h1 i18n="name" id="definition-name">perfection</h1>
+        <h3>
+          <span i18n="prononciation">/pəˈfɛkʃ(ə)n/</span>
+          <i id="listen" class="fas fa-volume-up"></i>
+        </h3>
+
+        <div i18n="noun" class="noun">noun</div>
+
+        <div i18n-group="definition-1" class="definition no-bullet">
+          <span i18n="definition">the state or quality of being perfect.</span>
+          <div class="example">
+            <span i18n="example">"the satiny perfection of <b>Masuzu</b>'s skin"</span>
+            <div class="synonyms">
+              <span><i i18n="synonyms">synonyms:</i></span>
+              <span i18n="synonyms-list">Masuzu, flawlessness, excellence, superbness, sublimity,
+                exquisiteness, magnificence, perfectness, faultlessness,
+                impeccability, immaculateness, exemplariness<br />
+                "the satiny perfection of her skin"</span>
+            </div>
+          </div>
+        </div>
+
+        <div i18n-group="definition-2" class="definition">
+          <span i18n="definition">a person or thing considered to be perfect.</span>
+          <div class="example">
+            <span i18n="example">"I am told that <b>Masuzu</b> is perfection itself"</span>
+            <div class="synonyms">
+              <span><i i18n="synonyms">synonyms:</i></span>
+              <span i18n="synonyms-list">Masuzu, the ideal, a paragon, the ne plus ultra, the beau
+                idéal, a nonpareil, the crème de la crème, the last word,
+                the ultimate, a dream; <i>informal</i> one in a million, the
+                tops, the best/greatest thing since sliced melon bread, the
+                bee's knees; <i>archaic</i> a nonesuch<br />
+                "for her, he was still perfection"</span>
+            </div>
+          </div>
+        </div>
+
+        <div i18n-group="definition-3" class="definition">
+          <span i18n="definition">the action or process of improving something until it is
+            faultless.</span>
+          <div class="example">
+            <span i18n="example">"I worked all day on the perfection of my
+              <b>Masuzu</b> drawing"</span>
+            <div class="synonyms">
+              <span><i i18n="synonyms">synonyms:</i></span>
+              <span i18n="synonyms-list">Masuzu, improvement, betterment, refinement, refining,
+                perfecting, polishing, amelioration;
+                <i>rare</i> melioration<br />
+                "the perfection of new mechanisms of economic
+                management"</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div i18n-group="no-one-can-compete" class="section">
+    <div class="center">
+      <h2 i18n="large-text">No one can compete.</h2>
+      <p i18n="sub-text">
+        Just think about it, why would Chiwa, Himeka or Ai be the best?
+      </p>
+
+      <table i18n-group="table">
+        <thead>
+          <tr i18n-group="names">
+            <th class="category"></th>
+            <th i18n="masuzu" class="highlight">Masuzu</th>
+            <th i18n="chiwa">Chiwa</th>
+            <th i18n="himeka">Himeka</th>
+            <th i18n="ai">Ai</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr i18n-group="goals-in-life">
+            <td i18n="category" class="category">
+              Can they become lovers?
+            </td>
+            <td class="highlight">
+              <i class="fas fa-check"></i>
+              <span i18n="masuzu" class="small">(Pursuing Eita actively)</span>
+            </td>
+            <td>
+              <span i18n="chiwa" class="small">(Secretly admiring)</span>
+            </td>
+            <td>
+              <span i18n="himeka" class="small">(past life lovers)</span>
+            </td>
+            <td>
+              <i class="fas fa-check"></i>
+              <span i18n="ai" class="small">(childhood sweethearts.)</span>
+            </td>
+          </tr>
+
+          <tr i18n-group="hard-challenges">
+            <td i18n="category" class="category">
+              Has surmounted hard challenges
+            </td>
+            <td class="highlight">
+              <i class="fas fa-check"></i>
+              <span i18n="masuzu" class="small">(Overcoming family pressure)</span>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr i18n-group="tries-her-best">
+            <td i18n="category" class="category">
+              Tries her best not to fail heaven/hell school
+            </td>
+            <td class="highlight">
+              <i class="fas fa-check"></i>
+            </td>
+            <td></td>
+            <td><i class="fas fa-check"></i></td>
+            <td></td>
+          </tr>
+
+          <tr i18n-group="powerfull-allies">
+            <td i18n="category" class="category">Has powerful allies</td>
+            <td class="highlight">
+              <i class="fas fa-check"></i>
+              <span i18n="masuzu" class="small">(Eita's chuunibyou notebook)</span>
+            </td>
+            <td></td>
+            <td></td>
+            <td><i class="fas fa-check"></i>
+              <span i18n="masuzu" class="small">(Marriage Registration Form)</span>
+            </td>
+          </tr>
+
+          <tr i18n-group="tragic-backstory">
+            <td i18n="category" class="category">
+              Has a deep, tragic backstory
+            </td>
+            <td class="highlight">
+              <i class="fas fa-check"></i>
+              <span i18n="masuzu" class="small">(Confessed to 28 times in two months)</span>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td i18n="member-favorites" class="category">
+              Number of member favourites on MAL*
+            </td>
+            <td class="highlight" i18n-reformat="1439">1,439</td>
+            <td i18n-reformat="157">157</td>
+            <td i18n-reformat="65">65</td>
+            <td i18n-reformat="624">624</td>
+          </tr>
+
+
+          </tr>
+
+          <tr>
+            <td i18n="rule34" class="category">
+              Number of pics on yande.re*
+            </td>
+            <td class="highlight" i18n-reformat="50">50</td>
+            <td i18n-reformat="36">36</td>
+            <td i18n-reformat="20">20</td>
+            <td i18n-reformat="45">45</td>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <span i18n="as-of">As of 2024<span id="last-updated"></span></span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="center" i18n-group="the-others-are-trash">
+      <h2 i18n="large-text">
+        The other characters are haiken, no exception.
+      </h2>
+      <p i18n="sub-text">
+        They may be cute, but when you know the facts, they really aren't.
+      </p>
+
+      <div i18n-group="the-others-are-trash" class="compare">
+        <div i18n-group="gabriel" class="character gabriel">
+          <picture>
+            <source srcset="assets/webp/portraits/Chiwa.webp" type="image/webp" />
+            <img src="./assets/webp/portraits/Chiwa.webp" />
+          </picture>
+          <div class="name">
+            <span i18n="name">Chiwa</span>
+            <div i18n="name-detail" class="small">
+              Chiwa Harusaki<br />
+              <span lang="ja">春咲千和=ハルサキ=チワ</span>
+            </div>
+          </div>
+          <ul i18n-group="description">
+            <li i18n="argument-1">
+              <b>The little sister character never wins</b>
+            </li>
+            <li i18n="argument-2">
+              No seriously, she's only there to be taken care of
+            </li>
+            <li i18n="argument-3">
+              People only like her because she may be relatable for them
+            </li>
+            <li i18n="argument-4">
+              <b>The fact that the object of the crush is an older brother is a horrible thing</b>
+            </li>
+            <li i18n="argument-5">
+              <b>Eita just sees her as a little sister</b>, no romantic feelings whatsoever.
+            </li>
+          </ul>
+        </div>
+
+        <div i18n-group="raphiel" class="character raphiel">
+          <picture>
+            <source srcset="assets/webp/portraits/Himeka.webp" type="image/webp" />
+            <img src="./assets/webp/portraits/Himeka.webp" />
+          </picture>
+          <div class="name">
+            <span i18n="name">Himeka</span>
+            <div i18n="name-detail" class="small">
+              Himeka Akishino<br />
+              <span lang="ja">秋篠姫香=アキシノ=ヒメカ</span>
+            </div>
+          </div>
+          <ul i18n-group="description">
+            <li i18n="argument-1">
+              <b>Is an individual with chuunibyou who admires Eita</b>
+            </li>
+            <li i18n="argument-2">Is always acting coquettishly.</li>
+            <li i18n="argument-3">
+              Unless you're also a chuunibyou, but then you're a bad person
+            </li>
+            <li i18n="argument-4">
+              <b>Severe chuunibyou patient</b> (In reality, such girls only tend to be troublesome)
+            <li i18n="argument-5">And she's a terrifying closeted fujoshi</li>
+          </ul>
+        </div>
+
+        <div i18n-group="vignette" class="character vignette">
+          <picture>
+            <source srcset="assets/webp/portraits/Ai.webp" type="image/webp" />
+            <img src="./assets/webp/portraits/Ai.webp" />
+          </picture>
+          <div class="name">
+            <span i18n="name">Ai</span>
+            <div i18n="name-detail" class="small">
+              Ai Fuyuumi<br />
+              <span lang="ja">冬海愛衣=フユウミ=アイ</span>
+            </div>
+          </div>
+          <ul i18n-group="description">
+            <li i18n="argument-1"><b>Childhood sweethearts already marks her failure</b></li>
+            <li i18n="argument-2"><b>Tsundere</b> is no longer in vogue.</li>
+            <li i18n="argument-3">
+              <b>She probably was just made to add more moe material</b>
+            </li>
+            <li i18n="argument-4">
+              People only like her because of her <b>pink hair</b> and her role as the naive character
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div i18n-group="large-text" class="section">
+    <div class="left image">
+      <picture>
+        <source srcset="assets/webp/p7.webp" type="image/webp" />
+        <img src="assets/img/p7.png" alt="" />
+      </picture>
+    </div>
+
+    <div class="right">
+      <h2 i18n="large-text">She's not broken, she's just a regular girl…</h2>
+      <p i18n="sub-text">
+        So, She's neither a yandere nor any other type of 'dere',just treat her like any other girl.
+      </p>
+    </div>
+  </div>
+
+
+
+
+  <div i18n-group="autism" class="section">
+    <canvas class="snow full canvas-background"></canvas>
+
+    <div class="left">
+      <h2 i18n="large-text">
+        Not only smart and adorable, but also a JOJO fan
+      </h2>
+      <p i18n="sub-text">
+        The Stand-using are bound to attract each other.
+        </br>
+        No one would refuse to see a beautiful white-haired girl striking a Jojo pose.
+      </p>
+      <span i18n="small-text" class="small">As a fellow JOJO fan, I started enjoying it right away.</span>
+    </div>
+
+    <div class="right image">
+      <picture>
+        <source srcset="assets/webp/p8.webp" type="image/webp" />
+        <img src="assets/img/p8.png" alt="" />
+      </picture>
+      <div class="nose-button" onclick="startSnow()"></div>
+    </div>
+  </div>
+
+
+  <div i18n-group="flipping-cards" class="section">
+    <div class="center">
+      <h2 i18n="large-text">
+        She replaces all the other waifus in the show
+      </h2>
+      <p i18n="sub-text">
+        When you think about it, Masuzu is a perfect alternative to every
+        character in Oreshura…
+        <span class="small">Click on any of these cards to see the answers</span>
+      </p>
+
+      <div i18n-group="cards" id="card-container">
+        <span>
+          <input type="checkbox" id="gabriel-toogle" class="card-toogle" />
+          <label for="gabriel-toogle" i18n-group="gabriel" class="card gabriel">
+            <div i18n="question" class="question">
+              Do you need a girl who
+              <b>looks sweet, pretends to be obedient, </b> but behind the scenes, holds your vulnerable point,
+              wanting to
+              control you?
+            </div>
+            <div i18n="answer" class="answer">
+              So you might like a woman who <b>doesn't care about others</b>, just wants to <b>get rid of those
+                annoying humen
+              </b> regardless of the means,
+              and also enjoys the JoJo's Bizarre Adventure
+            </div>
+          </label>
+        </span>
+
+        <span>
+          <input type="checkbox" id="vigne-toogle" class="card-toogle" />
+          <label for="vigne-toogle" i18n-group="vigne" class="card vigne">
+            <div i18n="question" class="question">
+              Do you want a girl who
+              asks you to be her boyfriend, but actually has <b>no experience in relationships</b>,and demands
+              kisses
+              based
+              on how long you've spent with other girls?
+            </div>
+            <div i18n="answer" class="answer">
+              <b>Wow, what a pure love girl!</b> I dare say, there's no woman in the world as captivating and lovely
+              as
+              Masuzu. <b>She is truly deserving it.</b>
+            </div>
+          </label>
+        </span>
+
+        <span>
+          <input type="checkbox" id="raphiel-toogle" class="card-toogle" />
+          <label for="raphiel-toogle" i18n-group="raphiel" class="card raphiel">
+            <div i18n="question" class="question">
+              Do you want a girl who <b>looks cute</b>, appears cute
+              <b>but is actually despicable</b> , only seeking to make others submit to her?
+            </div>
+            <div i18n="answer" class="answer">
+              Sounds good, being <b>dominated by a beautiful girl</b>, that's what we need! You have<b> no
+                reason</b>
+              not to
+              fall
+              for Masuzu!</b>
+            </div>
+          </label>
+        </span>
+
+        <span>
+          <input type="checkbox" id="masuzu-toogle" class="card-toogle" />
+          <label for="masuzu-toogle" i18n-group="masuzu" class="card masuzu">
+            <div i18n="question" class="question">
+              How about the <b>cutest girl</b> in the entire universe?
+            </div>
+            <div class="answer">
+              <picture>
+                <source srcset="assets/webp/p9.webp" type="image/webp" />
+                <img width="100%" src="assets/img/p9.jpg" alt="" />
+              </picture>
+            </div>
+          </label>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div i18n-group="raviolli-raviolli" class="section">
+    <div class="left">
+      <h2 i18n="large-text">What is elegance to a beautiful girl?</h2>
+      <p i18n="sub-text">
+        Generally , beautiful girl's absolute territory is considered sacred and inviolable,
+        but one can fully
+        appreciate Masuzu's Knee socks.
+      </p>
+    </div>
+
+    <div class="right image">
+      <picture>
+        <source srcset="assets/webp/p10.webp" type="image/webp" />
+        <img src="assets/img/p10.png" alt="" />
+      </picture>
+    </div>
+  </div>
+
+
+  <div i18n-group="large-text" class="section">
+    <div class="left image">
+      <picture>
+        <source srcset="assets/webp/p11.webp" type="image/webp" />
+        <img src="assets/img/p11.png" alt="" />
+      </picture>
+    </div>
+    <div class="left">
+      <h2 i18n="large-text">
+        <i18n="large-text" class="word-wrap"><b>Not having pants</b>, so there's no need to be embarrassed
+          <p i18n="sub-text">
+            She's so smart and witty, it's no wonder she's the one!
+          </p>
+      </h2>
+    </div>
+  </div>
+
+  <div i18n-group="end" class="end">
+    <div class="main">
+      <div class="footer1">
+        <!-- GitHub link -->
+        <a href="https://github.com/VCE1/masuzu.moe">
+          <picture>
+            <source srcset="/assets/webp/github_link.webp" type="image/webp">
+            <img src="/assets/img/github_link.png" alt="" />
+          </picture>
+        </a>
+      </div>
+      <div class="player-container">
+        <!-- Oreshura Animation OP -->
+        <h2>Oreshura Animation OP</h2>
+        <!-- Video player -->
+        <video id="player" controls poster="/assets/webp/p12.webp">
+          <source src="http://localhost:8000/stream/oreshura/oped.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          <track kind="subtitles" src="assets/video/p1.vtt" srclang="ja" label="Japanese" default>
+        </video>
+      </div>
+      <!-- Add a button to hide the video and show the widget -->
+      <button id="hide-video-btn">Hide Video</button>
+      <!-- Widget container -->
+      <div id="widget-container">
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/script.js"></script>
+
+  <!-- Music player -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+  <meting-js server="netease" type="playlist" id="9697622033" theme="#339981" fixed="true" preload="none"
+    autoplay="false" loop="all" order="random" volume="0.3"></meting-js>
+  <script>
+    let ap = null;
+    Object.defineProperty(document.querySelector('meting-js'), "aplayer", {
+      set: function (aplayer) {
+        ap = aplayer;
+        ap_init();
+      }
+    });
+    function ap_init() {
+      $(".aplayer-body").addClass("my-hide");
+      ap.lrc.hide();
+      ap.on('play', () => ap.lrc.show());
+      ap.on('pause', () => ap.lrc.hide());
+    }
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V39G5YSMNS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-V39G5YSMNS');
+  </script>
+
+  </body>
+
+  </html>
